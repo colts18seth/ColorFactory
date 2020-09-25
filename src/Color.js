@@ -17,7 +17,6 @@ function Color() {
     }
 
     return (
-
         <div className='Color' style={style}>
             <Link to='/colors' style={defaultStyles}>Back to Colors List</Link>
             <p style={defaultStyles}>Your Color is {color}.</p>
